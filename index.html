@@ -1,39 +1,37 @@
-﻿<!DOCTYPE html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Can Balioglu</title>
-
-    <meta name="description" content="geek, technology enthusiast, developer" />
-    <meta name="author" content="Can Balioglu" />
-    <meta name="robots" content="index, follow" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <link href="styles.css" rel="stylesheet" type="text/css" media="all" />
 </head>
-<body>
-    <h1>Can Balioglu</h1>
+<body style="margin: auto; max-width: 100ch; padding: 0 2ch">
+    <header>
+        <h1>Can Balioglu</h1>
+        <p><img src="photo.jpg" alt="Photo" style="width: 256px"></p>
+    </header>
 
-    <p id="about">geek, technology enthusiast, developer</p>
+    <p>I am a Research Engineer (E7) at FAIR and previously worked as a Senior Engineer in PyTorch. My interests include machine learning and systems, with a particular focus on performance engineering and scalability.</p>
 
-    <section id="social" class="cf">
-        <div>
-            <a target="_blank" href="https://twitter.com/cbalioglu">
-                <img src="twitter.svg" alt="Twitter" />
-            </a>
-        </div>
-        <div>
-            <a target="_blank" href="https://github.com/cbalioglu">
-                <img src="github.svg" alt="GitHub" />
-            </a>
-        </div>
-        <div>
-            <a target="_blank" href="https://de.linkedin.com/in/cbalioglu">
-                <img src="linkedin.svg" alt="LinkedIn" />
-            </a>
-        </div>
-    </section>
+    <h2>Links</h2>
+    <ul>
+        <li><a href="mailto:cbalioglu@fastmail.com">Email</a></li>
+        <li><a href="https://github.com/cbalioglu">GitHub</a></li>
+        <li><a href="https://x.com/cbalioglu">X</a></li>
+        <li><a href="https://bsky.app/profile/cbalioglu.bsky.social">Bluesky</a></li>
+        <li><a href="https://www.linkedin.com/in/cbalioglu/">LinkedIn</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=Cc_wUw0AAAAJ">Google Scholar</a></li>
+    </ul>
+
+    <h2>Some Past Work</h2>
+    <ul>
+        <li>My original work on <a href="https://docs.pytorch.org/torchdistx/latest/fake_tensor.html">FakeTensor</a> (an experimental C++ implementation in <a href="https://github.com/pytorch/torchdistx">torchdistx</a>) later became a fundamental conceptual building block of the torch.compile stack.</li>
+        <li>I designed and authored the <a href="https://docs.pytorch.org/torchdistx/latest/deferred_init.html">Deferred Lazy Initialization</a> method in PyTorch that is now used by many training frameworks such as DeepSpeed and PyTorch Lightning.
+        <li>Following Myle Ott, I maintained <a href="https://github.com/facebookresearch/fairseq">fairseq</a> for more than 3 years until its archival.</li>
+        <li>I am also the author of <a href="https://github.com/facebookresearch/fairseq2">fairseq2</a>, the successor to fairseq, which is widely used within FAIR.</a>
+    </ul>
+
+    <p style="padding-top: 4ch">Copyright (c) 2015-present Can Balioglu, licensed <a href="LICENSE">MIT</a>.</p>
 </body>
-</html>
+<html>
